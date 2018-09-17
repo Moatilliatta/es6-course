@@ -1,0 +1,22 @@
+{
+  "name": "es6-tutorial-master",
+  "version": "1.0.0",
+  "description": "Testing purposes",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "author": "ccoenraets.githib.io/es6-tutorial/setup-babel",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "buble": "^0.19.3",
+    "buble-loader": "^0.5.1",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-buble": "^0.19.2",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
